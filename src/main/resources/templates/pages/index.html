@@ -110,7 +110,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="buttons.html" class="nav-link">
+                                <a href="javascript:void(0)" class="nav-link" id="sys-log-id">
                                     <i class="fa fa-angle-right "></i> 日志管理
                                 </a>
                             </li>
@@ -199,6 +199,7 @@ $(function(){
 	   //点击事件注册
 	   //当点击指定id对应的对象时,执行某个操作(页面加载)
 	   doLoadUI("sys-menu-id","sys/menu_list");
+	   doLoadUI("sys-log-id","sys/log_list");
 });
 //提取共性
 function doLoadUI(id,url){
