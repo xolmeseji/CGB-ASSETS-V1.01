@@ -9,7 +9,7 @@ server:
 #spring
 spring:
   datasource:
-    url: jdbc:mysql:///assets?serverTimezone=GMT
+    url: jdbc:mysql:///jtsys?serverTimezone=GMT
     username: root
     password: root
   thymeleaf:
